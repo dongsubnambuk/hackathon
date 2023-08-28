@@ -1,40 +1,57 @@
 * {
   box-sizing: border-box;
 }
+
+header{
+  width: 100%;
+}
+
 body {
   font-size: 14px;
+  
+  
 }
 .mypage_box{
-  width: 100%;
-  height: 1024px;
- 
+  width: 1739px;
+ height: 1000px; 
   opacity: 1;
-  position: relative;
+  position: absolute;
   top: 0px;
   left: 0px;
   overflow: hidden;
+ 
 }
 .mypagetext_box {
-  width: 486px;
-  height: 143px;
-  background: rgba(217,217,217,1);
-  opacity: 1;
-  position: absolute;
-  top: 181px;
-  left: 0px;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  overflow: hidden;
+/* Rectangle 67 */
+
+position: absolute;
+width: 445px;
+height: 72px;
+left: 0px;
+top: 200px;
+
+background: #567FEA;
+border-radius: 30px 30px 0px 0px;
 }
+/* Rectangle 68 */
+
+
+
 .mypage_inner_box {
-  width: 100%;
-  height: 768px;
-  background: rgba(217,217,217,1);
-  opacity: 1;
-  position: absolute;
-  top: 233px;
-  left: 0px;
-  overflow: hidden;
+ /* Rectangle 68 */
+
+ box-sizing: border-box;
+
+ position: absolute;
+ width: 1739px;
+ height: 715px;
+ left: 0px;
+ top: 272px;
+ 
+ background: #FDFFFE;
+ border: 2px solid #567FEA;
+ border-radius: 0px;
+
 }
 .private_update {
   width: 315px;
@@ -173,52 +190,81 @@ color: #000000;
 
 
 }
-.logout {
+/* 000 님 로그아웃 */
+
+
+
+.logout_zon{
+  position: absolute;
+  width: 390px;
+  height: 10%;
+  right: 3%;
+  left: 1290px;
+top: 63px;
+ 
+
+}
+
+.logout1{
+  margin-top: 10px;
   width: 390px;
   color: rgba(65,74,70,1);
   position: absolute;
-  top: 87px;
-  left: 1523px;
+ text-align: right;
   font-family: Inter;
   font-weight: Regular;
   font-size: 30px;
   opacity: 1;
-  text-align: center;
+ 
 }
-.logout_btn{
-  
+
+.logout_btn1{
   position: absolute;
   width: 120px;
   height: 52px;
-  top: 130px;
-  left: 1650px;
-  
+  top: 50%;
+  left: 73%;
   
   border-radius: 20px;
   font-size: 25px;
-  }
+}
+
 .mypage {
-  width: 315px;
-  color: rgba(65,74,70,1);
+
   position: absolute;
+  width: 315px;
+  height: 64px;
   top: 208px;
   left: 98px;
-  font-family: Inter;
-  font-weight: Bold;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
   font-size: 38px;
-  opacity: 1;
+  line-height: 46px;
   text-align: center;
+  
+  color: #FDFFFE;
 }
 
 .line{
 position: absolute;
-width: 1664px;
+width: 1500px;
 height: 0px;
 left: 86px;
 top: 450px;
 
 border: 1px solid #000000;
 
+}
+.line2{
+  position: absolute;
+width: 1500px;
+height: 0px;
+left: 86px;
+top: 850px;
+
+border: 1px solid #000000;
 }
 
 
@@ -230,7 +276,8 @@ border: 1px solid #000000;
   left: 694px;
   top: 924px;
   
-  background: #C5C3C3;
+  background: #567FEA;
+  color: #FDFFFE;
   border-radius: 20px;
   font-size: 25px;
   
@@ -245,7 +292,8 @@ border: 1px solid #000000;
   left: 979px;
   top: 924px;
   
-  background: #C5C3C3;
+  background: #567FEA;
+  color: #FDFFFE;
   border-radius: 20px;
   font-size: 25px;
   
